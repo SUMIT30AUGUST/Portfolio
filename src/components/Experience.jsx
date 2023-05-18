@@ -2,8 +2,8 @@ import React from 'react'
 import html from '../assets/html.png'
 import css from '../assets/css.png'
 import mongodb from '../assets/mongodb.png'
-import reactjs from '../assets/reactjs.jpg'
-import typescript from '../assets/typescript.webp'
+import reactjs from '../assets/reactjs.png'
+import typescript from '../assets/typescript.png'
 import javascript from '../assets/javascript.jpg'
 import jira from '../assets/jira.jpg'
 import MsSql from '../assets/MsSql.png'
@@ -40,7 +40,7 @@ const Experience = () => {
         id:4,
         src:typescript,
         title:'JIRA',
-        style:'shadow-blue-500'
+        style:' shadow-blue-500'
       } ,
       {
         id:5,
@@ -105,12 +105,12 @@ const Experience = () => {
             <p className='py-6' >These are the technologies I've worked with</p>
         </div> 
 
-        <div className=' w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 ' >
+        <div className='  w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 ' >
          
             {
               tech.map(({id,src,style,title})=>(
                 <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-                <img src={src} className='w-20 mx-auto ' alt='/imgnotfound'/>
+                <img src={src} className='w-20 mx-auto  ' alt='/imgnotfound'/>
                 <p className='mt-4 ' >{title}</p>
             </div>
               ))
