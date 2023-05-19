@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Contact = () => {
   return (
     <div name="contact" className='  w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white '>
@@ -30,11 +31,11 @@ const Contact = () => {
                 <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110'>
                     Let's talk
                 </button>
-                
             </form>
+            <br></br>
         </div>
     </div>
-
+   
     </div>
   );
 }

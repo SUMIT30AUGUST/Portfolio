@@ -12,18 +12,19 @@ function Navbar() {
     id:1,
     link:"home"
 },
-{
-    id:2,
-    link:"about"
-},
+// {
+//     id:2,
+//     link:"about"
+// },
 {
     id:3,
     link:"portfolio"
 },
-{
-    id:4,
-    link:"experience"
-},
+// {
+//     id:4,
+//     link:"experience"
+// },
+
 {
     id:5,
     link:"contact"
@@ -44,8 +45,8 @@ function Navbar() {
      {links.map(({id,link})=>(
           <li key={id} className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">
          <Link to={link} smooth duration={500}>
-     {link}
-    </Link>
+          {link}
+         </Link>
          </li> 
      ))}
      </ul>
@@ -64,7 +65,9 @@ function Navbar() {
 {links.map(({id,link})=>(
       <li key={id} className="px-4 cursor-pointer capitalize py-6 text-4xl"
       >
-    {link}
+   <Link  onClick={()=> setNav(!nav)} to={link} smooth duration={500}>
+          {link}
+         </Link>
      </li> 
  ))}
 </ul>
