@@ -18,7 +18,7 @@ const Home = () => {
                     I am a Full Stack Web Developer
                 </h2>
                 <p className='text-gray-500 py-4'>
-                    I have 6 months+ experience building  Web Application 
+                    I have been building  Web Application 
                     using Technologies like React Js , Node Js , JWT , MsSql server ,MongoDB, Tailwind ,  Material UI  and REST API's.
                 </p>
         
