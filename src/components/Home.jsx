@@ -1,5 +1,6 @@
 import React from 'react'
 import sumitPic2 from '../assets/sumitPic2.png'
+import sumitPic3 from  '../assets/sumitPic3.jpeg'
 import  {MdOutlineKeyboardArrowRight} from 'react-icons/md';
 import { Link } from 'react-scroll';
 
@@ -18,7 +19,7 @@ const Home = () => {
                     I am a Full Stack Web Developer
                 </h2>
                 <p className='text-gray-500 py-4'>
-                    I have been building  Web Application 
+                    I have 1year+ experience building  Web Application 
                     using Technologies like React Js , Node Js , JWT , MsSql server ,MongoDB, Tailwind ,  Material UI  and REST API's.
                 </p>
         
@@ -48,7 +49,7 @@ const Home = () => {
 
             <div>
                 {/* Compiler Warning :- Dont use picture,image or photo inside alt because the build will fail when you go for deploying the project */}
-                <img src={sumitPic2} alt="my profile" className='  rounded-2xl mx-auto w-2/3   md:w-22 mb-10 '/> 
+                <img src={sumitPic3} alt="my profile" className='  rounded-2xl mx-auto w-2/3   md:w-22 mb-10 '/> 
             </div>
        </div>
 
